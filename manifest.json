@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Better YouTube",
+  "description": "🎦 Better YouTube - All YT Premium Features - Watchpartys - And much more",
+  "version": "1.0",
+  "content_scripts": [
+      {
+        "matches": [
+          "youtube.com"
+        ],
+        "js": ["content.js"]
+      }
+  ]
+}
